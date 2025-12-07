@@ -1,0 +1,10 @@
+
+Return the following information as JSON: 
+
+1) Metric: Specify which metrics were used to measure the impacts of mining. Be specific and only mention individual metrics/measures/indices/etc. Only list metrics that were explicitly measured, modelled or otherwise estimated in the study. 
+
+2) Metric category: Group each metric into one of the following categories:
+- Biodiversity metric: quantifies and measures any species- or community-level biodiversity metric or indicator for any taxonomic group (vertebrates, invertebrates, plants, microorganisms, fungi, etc). Examples: species richness, abundance, diversity indices (Shannon, Simpson), community composition (e.g., percent model aﬃnity), biomass, population trends, population growth rate.
+- (Sub)-organismal metric: quantifies and measures biological processes or traits within or at the level of an organism or individual (e.g., physiological, molecular,  cellular, or genetic processes, etc). Examples: gene expression, enzyme activity, hormone levels, immune response, stress biomarkers, metabolic rates, individual growth rate.
+- Environmental metric: quantifies and measures the state, condition, or quality of the abiotic environment, excluding biodiversity or organismal metrics. Examples: water quality, contaminant or metal concentrations, temperature, pH, dissolved oxygen, soil nutrients, habitat structure, land cover, forest cover, etc.
+Note: If a metric could plausibly fit two categories, choose the category best representing the biological level being measured (species/community or organism or environment).

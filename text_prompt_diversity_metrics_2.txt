@@ -1,0 +1,7 @@
+
+1) Impact direction: in which direction the metric is reported to have changed due to mining (relative to a reference), based on quantitative data and figures. If this is not provided in the study, choose 'NA'. 
+2) Significance: Determine if the change is statistically significant (if mentioned in the text). Choose between: 'significant', 'non-significant' or 'NA' if not reported. 
+3) P value: If a p value is provided for this particular metric change, report this (if p value is not stated, choose 'NA'). 
+4) Effect size: If an effect size is provided for this particular metric change, report this as well (if not stated, choose 'NA') 
+
+Note: For Rehabilitation studies: The impact direction should be assessed based on the overall impact of mining, not the impact of just the rehabilitation.

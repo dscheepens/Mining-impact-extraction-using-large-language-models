@@ -1,0 +1,64 @@
+For the mine named '{mine}' specifically, create a section for each of the below. Let's think through each task step by step.
+
+
+1. Country/Continent: In which country or continent is the mine located?
+
+2. Specific location: Where specifically is {mine} located? I.e., Central Africa, Clarion Clipperton Zone, Global, etc.
+
+3. Mined commodities: List all the commodities mined at the mine named '{mine}'. These can be commodities that are actively being mined or were mined in the past. To help you answer this question, ask yourself what kind of mine this is. For example: If the text states that the studied mine is a coal mine, then the commodity is coal. Further clarifications: Polymetallic nodules in the CCZ contain Mn, Cu, Co and Ni. 
+
+4. Mining stage: The stage of mining at the mine named '{mine}' (choose from: mineral occurrences, exploration/pre-operational, operational, closed, rehabilitation). Multiple options may be applicable.  
+- Mineral occurrences: A known commodity is located. This could be any stage of mining (exploration, operational, closed, etc.).
+- Exploration/Pre-operational: A commodity is known to occur, but mining activities have not commenced.
+- Operational: Mining activities are occurring. The mine is active (e.g., production reported).
+- Closed: Mining activities have concluded, the site could be abandoned or rehabilitated/relinquished.
+- Rehabilitation: Treatment or management of land/water disturbed by mining.
+Note: Mining stage may also be operational and/or closed.
+
+5. Type of mining activity at the mine named '{mine}' (choose from: open cut, underground, mountaintop removal, in-situ leaching, placer mining, dredging, artisanal small-scale mining, nodule mining, sulphide mining, crust mining, quarrying). Multiple options may be applicable. Look for explicit mentions of these activities in the text with regards to the current study, or choose the most applicable. If information on mining activity is not explicitly stated in the study, flag this with ‘NA’.
+
+6. Experimental design: What comparison is made in mining conditions to determine biodiversity impacts? Choose from: Mining area vs non-mining area, current mining vs post-mining, pre-mining vs current mining, pre-mining vs post-mining, pre-mining vs hypothetical mining (multiple options may be applicable).
+- Mining area vs non-mining area: The impacts of mining in a mining area (any stage) are compared to an untouched area not used for mining.
+- Current mining vs post-mining: The impacts of mining in an area currently being mined are compared to a different area that has undergone mining in the past.
+- Pre-mining vs current mining: The impacts of current mining activities are compared to the state of biodiversity before mining commenced in the same site/area.
+- Pre-mining vs post-mining: The impacts of mining on biodiversity are compared between an area that has undergone mining (after operations have ceased) and the same area before mining occurred.
+- Pre-mining vs hypothetical mining: A mining area (pre-operation) is compared to a hypothetical current/post-mining scenario. 
+
+7. Taxonomic groups: Which species group/s are investigated in the impact-study of this mine ('{mine}')? Try to be as specific as possible (i.e., salamanders, skinks), otherwise use broader taxonomic group (e.g., mammals, amphibians, plants, etc.). In the case of forest, the taxonomic group 'plants' is applicable.
+
+8. Biomes of assessment: The biome in which the biodiversity assessment was conducted (choose from: marine, freshwater, grassland, savanna, shrubland, wetlands, rocky areas, caves and subterranean, forest, desert, tundra). Multiple options may be applicable. 
+
+9. Method of assessment: What methods are used to determine the impact or pressure on biodiversity from mining? Choose from: Spatial modelling, expert opinion, statistical analysis, in-situ sampling, laboratory experiment, laboratory analysis, interviews and questionnaires (multiple options may be applicable). Pay close attention to the methods section of the paper to answer this.
+- Spatial modelling: A spatial analysis where the mining data is intersected or overlayed with the biodiversity indicator (use of mapping software required for this selection).
+- Expert opinion: The impacts to biodiversity are determined from an expert workshop or from expert judgement.
+- Statistical analysis: Any kind of statistical analysis of quantitative data to estimate mining impacts. 
+- In-situ sampling: Sampling is completed in two or more locations, which can be both inside and outside the impacted area, to compare biodiversity values.
+- Laboratory experiment: Experiments are conducted in a laboratory setting to simulate the impacts of mining on biodiversity.
+- Laboratory analysis: A lab setting is used to assess biodiversity data collected from the field and produce results.
+- Interviews and questionnaires: The biodiversity impacts are determined from questionnaires or interviews with individuals from local communities, through their observations of environmental change.
+
+10. Specific methodology: Detail the specific methodology used in the study to quantify the indirect impacts of mining on biodiversity.
+
+11. Temporal scale: Does the text mention the time elapsed between the onset of mining-related pollution or contamination at the mine named '{mine}' and the biodiversity assessment/sampling. *Only* return a temporal scale for this mine if this is explicitly mentioned in the text for this particular mine. If the text mentions a temporal scale specifically for this mine, choose from: 1-5, 5-20, 20-50, 50-100, 100-1000, 1000+ years. Select '0' if impacts are measured for current or ongoing mining activities. If the text does not specify when contamination began, or if the text does not specify the elapsed time since pollution occurred for this mine, simply flag this section with NA.
+
+12. Type of impact or pressure: Is a pressure or an impact to biodiversity assessed? Choose from: Pressure, future impact, observed impact. Multiple options may be applicable. 
+- Pressure: When mining activities or mineral occurrences occur in the same area as biodiversity but there is no measured change to biodiversity as a result of mining.
+- Future impact: When there is a predicted change to the biodiversity indicator based on observed changes in a sample area, where mining activities have yet to occur.
+- Observed impact: When there is an observed change to the biodiversity indicator from historic or current mining activities as per the pressure-state-response framework.
+
+13. Impact pathway: Is an impact pathway defined in the methods of the study? Choose from: Land/Seabed use, water depletion, ecotoxicity, acidification, climate change, eutrophication. Multiple options may be applicable. 
+If yes, which pathway (select from below)? If no, choose NA.
+- Land/Seabed use: Impact from land use types or impact from seabed use for underwater mining, e.g., habitat loss, fragmentation, conversion, etc.
+- Water depletion: Impact from the use of water, e.g., water scarcity, depletion, etc. 
+- Ecotoxicity: Impact from a chemical or physical agent, e.g., sediment plume, water quality, water contamination, etc.
+- Acidification: Impact from acidic pollutants on land and/or in water, e.g., acid mine drainage).
+- Climate change: Impact from increased greenhouse gas emissions, e.g., changing biomes, extreme weather events, heat stress, etc.
+- Eutrophication: Impact from excessive richness of nutrients in the waterbody, e.g., algal blooms.
+                   
+14. Description of impact or pressure: Briefly elaborate on the pressures/impacts identified in the study. Highlight specific phrases in the paper where information is pulled from.
+
+15. Spatial scale: If impacts of mining are measured as observed impacts ('Type of impact or pressure' is 'Observed impact'), does the text report the distance between the mining activity and the impacted sites sampled for the mine named '{mine}'? *Only* return a spatial scale if this is explicitly mentioned in the text for this particular mine. If the text mentions a spatial scale specifically for this mine, choose from: 0-1, 1-5, 5-10, 10-20, 20-50, 50-100, 100+ km. If the text provides no information on spatial scale for this mine, simply flag this section with NA.
+
+Important: For any pierce of information, flag it with 'NA' if this information cannot be filled in (e.g., is not explicitly stated in the study).
+
+Explain your reasoning for each section. 
