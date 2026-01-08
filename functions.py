@@ -414,21 +414,25 @@ def add_remaining_rows(df, json_response):
 
 def extract_and_return_as_json(ollama, model, seed, system_prompt, user_prompt, prompt_format, images=False, image_paths=""):
 
-    # 1. generate text response 
-    text_response, _ = extract_information(ollama, model, seed, system_prompt, images, image_paths, prompt=user_prompt)
-    if text_response is None:
-        print("1. Generating text response is None. Trying again...")
+    if images: 
+        json_response, _ = extract_information_formatted(ollama, model, seed, system_prompt, user_prompt, prompt_format, image_paths)
+        text_response = "" 
+    else:
+        # 1. generate text response 
         text_response, _ = extract_information(ollama, model, seed, system_prompt, images, image_paths, prompt=user_prompt)
-        if text_response is None: # probable API error or failure to generate 
-            print("Failed.") 
-            
-    # 2. return response as json: 
-    json_response = get_json_table(ollama, model, seed, text_response, prompt_format)
-    if json_response is None:
-        print("2. Generating json is None. Trying again...")
+        if text_response is None:
+            print("1. Generating text response is None. Trying again...")
+            text_response, _ = extract_information(ollama, model, seed, system_prompt, images, image_paths, prompt=user_prompt)
+            if text_response is None: # probable API error or failure to generate 
+                print("Failed.") 
+                
+        # 2. return response as json: 
         json_response = get_json_table(ollama, model, seed, text_response, prompt_format)
-        if json_response is None: # probable API error or failure to generate 
-            print("Failed.") 
+        if json_response is None:
+            print("2. Generating json is None. Trying again...")
+            json_response = get_json_table(ollama, model, seed, text_response, prompt_format)
+            if json_response is None: # probable API error or failure to generate 
+                print("Failed.") 
 
     return(text_response, json_response)
 
@@ -462,7 +466,7 @@ def get_full_response_json(ollama,
     # 2. get text response for the metrics (supply images, text and extracted tables): 
     user_prompt_2 = "Carefully read this mining-impact study:\n\n" + markdown_text + "\n\nRaw text: " + extracted_text + "\n\nTables from the text: " + text_tables  + "\n\n" + prompt_prefix + text_prompt_diversity_metrics
     
-    response_metrics, json_metrics = extract_and_return_as_json(ollama, model_lang, seed, system_prompt, user_prompt_2, prompt_format_metrics, images=False)
+    response_metrics, json_metrics = extract_and_return_as_json(ollama, model_lang, seed, system_prompt, user_prompt_2, prompt_format_metrics, images=False, image_paths=image_paths)
     
     if json_metrics is not None: 
         

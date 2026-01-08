@@ -1,7 +1,18 @@
 
-1) Impact direction: in which direction the metric is reported to have changed due to mining (relative to a reference), based on quantitative data and figures. If this is not provided in the study, choose 'NA'. 
-2) Significance: Determine if the change is statistically significant (if mentioned in the text). Choose between: 'significant', 'non-significant' or 'NA' if not reported. 
-3) P value: If a p value is provided for this particular metric change, report this (if p value is not stated, choose 'NA'). 
-4) Effect size: If an effect size is provided for this particular metric change, report this as well (if not stated, choose 'NA') 
+1) Impact direction: In which direction the metric is reported to have changed due to mining (relative to a non-mining/pre-mining/post-mining reference), based on quantitative data and figures. If this is not provided in the study, choose 'NA'.
+- No Impact: Relative to a reference, mining has caused neither a gain nor loss to biodiversity values (For rehabilitation studies: rehabilitation has increased biodiversity values to be equivalent to reference site/s or pre-mining conditions).
+- Increased: Relative to a reference, mining is associated with an increase in the metric (For rehabilitation studies: rehabilitation has increased biodiversity values above reference site/s or pre-mining conditions).
+- Decreased: Relative to a reference, mining is associated with a decrease in the metric (For rehabilitation studies: 1) rehabilitation has increased biodiversity values but not above reference site/s or pre-mining conditions. 2) Rehab has decreased biodiversity values or is having no positive impact).
+- Changed: The impacts of this metric cannot be measured as increased or decreased but there has been a change when comparing between different conditions.
+- Variable: The impacts are reported as both increasing biodiversity values in some respects and decreasing them in others. For example, if the paper assesses different species individually and the direction is increased for one species and decreased for another.
 
-Note: For Rehabilitation studies: The impact direction should be assessed based on the overall impact of mining, not the impact of just the rehabilitation.
+2) Significance: Determine if the change is statistically significant (if mentioned in the text). Choose between: 'significant', 'non-significant' or 'NA' if not reported. 
+
+3) P-value: If a p-value is provided for this particular metric change, report this (if p-value is not stated, choose 'NA'). 
+
+4) Effect size: If an effect size (or any other kind of magnitude) is provided for this particular metric change, report this as well (if not stated, choose 'NA'). Be concise. 
+
+Important: 
+- Thoroughly explain your reasoning for each step. This is a complex task and it is very important that you extract all of this information correctly. 
+- The impact direction (and the associated significance, p-value and effect size) must be relative to a non-mining/pre-mining/post-mining reference. Any other between-group comparisons and their significances/p-values/effect sizes are not relevant to this task and thus should be NA - only comparisons between mining and non-mining/pre-mining/post-mining are relevant.  
+- Note for rehabilitation studies: The impact direction should be assessed based on the overall impact of mining, not the impact of just the rehabilitation.

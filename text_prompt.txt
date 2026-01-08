@@ -1,3 +1,4 @@
+
 Thoroughly analyse the attached mining-impact study and create a section for each of the instructions below. Let's think through each task step by step.
 
 
@@ -64,6 +65,4 @@ If yes, which pathway (select from below)? If no, choose NA.
 
 16. Spatial scale: If observed impacts on biodiversity are measured in the study ('Type of impact or pressure' is 'Observed impact'), determine if the spatial scale of the observed impacts is mentioned in the text, specifically the distance (or a distance range) between the mining activity and the impacted sites sampled for biodiversity. *Only* if this is explicitly mentioned in the text, select in which range of distances this falls: 0-1, 1-5, 5-10, 10-20, 20-50, 50-100, 100+ km. If the text provides no information on spatial scale, simply flag this section with NA.
 
-Important: For any pierce of information, flag it with 'NA' if this information cannot be filled in (e.g., is not explicitly stated in the study).
-
-Explain your reasoning for each section. 
+Important: Thoroughly explain your reasoning for each step. This is a complex task and it is very important that you extract all of this information correctly. For any piece of information, flag it with 'NA' if this information cannot be filled in (e.g., is not explicitly stated in the study).

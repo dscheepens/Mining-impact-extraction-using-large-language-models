@@ -1,0 +1,202 @@
+[2025-12-10 17:39:06] Iteration: 0		 Study: 2544
+[2025-12-10 17:39:20] Extracting tables from the text...
+[2025-12-10 17:41:15] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 17:42:27] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 17:44:39] Extracting information for metric: Sediment arsenic concentration (mg kg⁻¹)
+[2025-12-10 17:44:53] Extracting information for metric: Sediment cadmium concentration (mg kg⁻¹)
+[2025-12-10 17:45:09] Extracting information for metric: Sediment lead concentration (mg kg⁻¹)
+[2025-12-10 17:45:25] Extracting information for metric: Sediment zinc concentration (mg kg⁻¹)
+[2025-12-10 17:45:41] Extracting information for metric: Water temperature (°C)
+[2025-12-10 17:45:57] Extracting information for metric: Water pH
+[2025-12-10 17:46:10] Extracting information for metric: Water dissolved‑oxygen (mg L⁻¹)
+[2025-12-10 17:46:25] Extracting information for metric: Water conductivity (µS cm⁻¹)
+[2025-12-10 17:46:40] Extracting information for metric: Total number of macro‑invertebrate individuals (abundance)
+[2025-12-10 17:46:58] Extracting information for metric: Number of families
+[2025-12-10 17:47:16] Extracting information for metric: Number of orders
+[2025-12-10 17:47:35] Extracting information for metric: Percent of individuals that were Plecoptera
+[2025-12-10 17:47:52] Extracting information for metric: Percent of individuals that were Ephemeroptera
+[2025-12-10 17:48:08] Extracting information for metric: Percent of individuals that were Trichoptera
+[2025-12-10 17:48:25] Extracting information for metric: Shannon diversity index (H)
+[2025-12-10 17:48:40] Extracting information for metric: Shannon richness component (J)
+[2025-12-10 17:48:57] Extracting information for metric: Shannon evenness component (E)
+[2025-12-10 17:49:14] Extracting information for metric: Difference in zinc concentration (up‑stream vs. down‑stream of a mine adit)
+[2025-12-10 17:49:30] Extracting information for metric: Difference in Plecoptera % (up‑stream vs. down‑stream of a mine adit)
+[2025-12-10 17:49:48] Done.
+[2025-12-10 17:49:48] Iteration: 1		 Study: 1825
+[2025-12-10 17:50:08] Extracting tables from the text...
+[2025-12-10 17:51:31] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 17:53:11] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 17:55:39] Extracting information for metric: Cumulative forest‑cover loss (ha) 2001‑2020 – treatment grids (near mines)
+[2025-12-10 17:56:03] Extracting information for metric: Cumulative forest‑cover loss (ha) 2001‑2020 – control grids (matched non‑mining locations)
+[2025-12-10 17:56:31] Extracting information for metric: Deforestation percentage (relative to 2000 tree‑cover) – treatment vs control
+[2025-12-10 17:56:55] Extracting information for metric: Relative excess deforestation (treatment % – control %) expressed as a percentage increase
+[2025-12-10 17:57:18] Extracting information for metric: Annual deforestation rate (ha yr⁻¹) – pre‑mine creation period
+[2025-12-10 17:57:41] Extracting information for metric: Annual deforestation rate (ha yr⁻¹) – post‑mine creation period
+[2025-12-10 17:58:09] Extracting information for metric: Annual increase in deforestation for mines created 2009‑2011 (post‑ minus pre‑creation rate)
+[2025-12-10 17:58:32] Extracting information for metric: Proportion of initial forest cover deforested within each buffer distance (1‑3 km, 3‑6 km, 6‑9 km, 9‑12 km) at multiple time‑points
+[2025-12-10 17:59:17] Extracting information for metric: Mean annual deforestation per 2 × 2 km grid‑square – treatment vs control
+[2025-12-10 17:59:41] Done.
+[2025-12-10 17:59:41] Iteration: 2		 Study: 1835
+[2025-12-10 18:00:07] Extracting tables from the text...
+[2025-12-10 18:08:13] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 18:09:52] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 18:13:08] Extracting information for metric: Electrical Conductivity (EC)
+[2025-12-10 18:13:36] Extracting information for metric: Total Dissolved Solids (TDS)
+[2025-12-10 18:14:06] Extracting information for metric: Magnesium concentration
+[2025-12-10 18:14:39] Extracting information for metric: Temperature
+[2025-12-10 18:15:10] Extracting information for metric: pH
+[2025-12-10 18:15:46] Extracting information for metric: Dissolved Oxygen (DO)
+[2025-12-10 18:16:18] Extracting information for metric: Biochemical Oxygen Demand (BOD₅)
+[2025-12-10 18:16:47] Extracting information for metric: Chemical Oxygen Demand (COD)
+[2025-12-10 18:17:21] Extracting information for metric: Chlorite concentration
+[2025-12-10 18:17:52] Extracting information for metric: Sulfate concentration
+[2025-12-10 18:18:24] Extracting information for metric: Nitrate concentration
+[2025-12-10 18:18:54] Extracting information for metric: Fish species richness (total number of fish species)
+[2025-12-10 18:19:24] Extracting information for metric: Species‑specific abundance/occurrence
+[2025-12-10 18:19:56] Extracting information for metric: Fish capture quantity (kg per fisher)
+[2025-12-10 18:20:33] Extracting information for metric: Fish size distribution
+[2025-12-10 18:21:08] Extracting information for metric: Fish mortality incidence (percentage of respondents reporting high mortality)
+[2025-12-10 18:21:41] Extracting information for metric: Perceived effect of mining on water quality (significant vs. not significant)
+[2025-12-10 18:22:16] Extracting information for metric: Perceived effect of mining on fish fertility (yes/no)
+[2025-12-10 18:22:52] Done.
+[2025-12-10 18:22:52] Iteration: 3		 Study: 1986
+[2025-12-10 18:23:11] Extracting tables from the text...
+[2025-12-10 18:24:43] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 18:26:11] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 18:28:31] Extracting information for metric: Proportion of mined area (bank-deforestation intensity)
+[2025-12-10 18:28:54] Extracting information for metric: Species richness (total)
+[2025-12-10 18:29:14] Extracting information for metric: Species richness (aquatic-associated)
+[2025-12-10 18:29:31] Extracting information for metric: Species richness (aquatic specialists)
+[2025-12-10 18:29:50] Extracting information for metric: Species abundance (total)
+[2025-12-10 18:30:17] Extracting information for metric: Species abundance (aquatic-associated)
+[2025-12-10 18:30:43] Extracting information for metric: Species abundance (aquatic specialists)
+[2025-12-10 18:31:06] Extracting information for metric: Community composition / β-diversity
+[2025-12-10 18:31:27] Extracting information for metric: Dissolved oxygen (DO)
+[2025-12-10 18:31:47] Extracting information for metric: Water transparency
+[2025-12-10 18:32:10] Extracting information for metric: Normalized Difference Vegetation Index (NDVI) of the water surface
+[2025-12-10 18:32:28] Done.
+[2025-12-10 18:32:28] Iteration: 4		 Study: 2063
+[2025-12-10 18:32:51] Extracting tables from the text...
+[2025-12-10 18:34:22] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 18:35:41] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 18:37:43] Extracting information for metric: Direct deforestation (km²)
+[2025-12-10 18:38:07] Extracting information for metric: Indirect deforestation (km²)
+[2025-12-10 18:38:30] Extracting information for metric: Total deforestation (km²)
+[2025-12-10 18:38:49] Extracting information for metric: Proportion of deforestation occurring in “high biological importance” areas (%)
+[2025-12-10 18:39:19] Extracting information for metric: Area of high‑biological‑importance forest loss (km²)
+[2025-12-10 18:39:38] Extracting information for metric: New road length required (km)
+[2025-12-10 18:39:58] Extracting information for metric: Road length per new deposit (km per deposit)
+[2025-12-10 18:40:18] Extracting information for metric: Forest‑fragmentation index
+[2025-12-10 18:40:40] Extracting information for metric: Change in fragmentation over the 30‑year simulation
+[2025-12-10 18:41:00] Done.
+[2025-12-10 18:41:00] Iteration: 5		 Study: 2067
+[2025-12-10 18:41:27] Extracting tables from the text...
+[2025-12-10 18:43:38] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 18:45:18] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 18:48:22] Extracting information for metric: Lipid‑peroxidation (LPO) concentration in microplankton (size class 1, 63–200 µm)
+[2025-12-10 18:49:02] Extracting information for metric: Lipid‑peroxidation (LPO) concentration in mesoplankton (size class 2, 200–500 µm)
+[2025-12-10 18:49:41] Extracting information for metric: Metallothionein (MT) concentration in microplankton (size class 1)
+[2025-12-10 18:50:29] Extracting information for metric: Metallothionein (MT) concentration in mesoplankton (size class 2)
+[2025-12-10 18:51:11] Extracting information for metric: Fe (iron) bio‑accumulation in microplankton (µg Fe kg⁻¹ wet‑weight)
+[2025-12-10 18:52:07] Extracting information for metric: Fe (iron) bio‑accumulation in mesoplankton (µg Fe kg⁻¹ wet‑weight)
+[2025-12-10 18:53:31] Extracting information for metric: Mn (manganese) bio‑accumulation in microplankton (µg Mn kg⁻¹ wet‑weight)
+[2025-12-10 18:54:14] Extracting information for metric: Mn (manganese) bio‑accumulation in mesoplankton (µg Mn kg⁻¹ wet‑weight)
+[2025-12-10 18:55:03] Extracting information for metric: Cr (chromium) bio‑accumulation in microplankton (µg Cr kg⁻¹ wet‑weight)
+[2025-12-10 18:55:58] Extracting information for metric: Cu (copper) bio‑accumulation in microplankton (µg Cu kg⁻¹ wet‑weight)
+[2025-12-10 18:56:40] Extracting information for metric: Zn (zinc) bio‑accumulation in microplankton (µg Zn kg⁻¹ wet‑weight)
+[2025-12-10 18:57:21] Extracting information for metric: Cd (cadmium) bio‑accumulation in microplankton (µg Cd kg⁻¹ wet‑weight)
+[2025-12-10 18:57:57] Extracting information for metric: Water temperature (°C)
+[2025-12-10 18:58:26] Extracting information for metric: Water conductivity (µS cm⁻¹)
+[2025-12-10 18:58:53] Done.
+[2025-12-10 18:58:53] Iteration: 6		 Study: 2546
+[2025-12-10 18:59:09] Extracting tables from the text...
+[2025-12-10 19:01:46] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 19:03:09] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 19:05:35] Extracting information for metric: Conductivity
+[2025-12-10 19:05:54] Extracting information for metric: Water temperature
+[2025-12-10 19:06:14] Extracting information for metric: pH
+[2025-12-10 19:06:42] Extracting information for metric: Dissolved oxygen
+[2025-12-10 19:07:07] Extracting information for metric: Total invertebrate density
+[2025-12-10 19:07:29] Extracting information for metric: Taxon richness (S)
+[2025-12-10 19:07:52] Extracting information for metric: Shannon diversity (H′)
+[2025-12-10 19:08:17] Extracting information for metric: EPT taxa richness
+[2025-12-10 19:08:37] Extracting information for metric: log(Sel EPTCD + 1)
+[2025-12-10 19:09:00] Extracting information for metric: IMMi‑T index
+[2025-12-10 19:09:28] Extracting information for metric: ICM‑Star index
+[2025-12-10 19:09:51] Extracting information for metric: Invertebrate drift count
+[2025-12-10 19:10:09] Extracting information for metric: Indicator‑taxa association (IndVal)
+[2025-12-10 19:10:40] Done.
+[2025-12-10 19:10:40] Iteration: 7		 Study: 2678
+[2025-12-10 19:11:00] Extracting tables from the text...
+[2025-12-10 19:14:32] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 19:16:12] Multiple mines found: Mine A, Mine B
+[2025-12-10 19:16:12] Starting extraction for mine: Mine A...
+[2025-12-10 19:18:16] Extracting information for metric: Richness
+[2025-12-10 19:18:38] Extracting information for metric: Number of individuals
+[2025-12-10 19:19:00] Extracting information for metric: Diversity (H′)
+[2025-12-10 19:19:23] Extracting information for metric: Evenness (J′)
+[2025-12-10 19:19:48] Extracting information for metric: HBI
+[2025-12-10 19:20:11] Extracting information for metric: WQI
+[2025-12-10 19:20:33] Extracting information for metric: PMA
+[2025-12-10 19:20:57] Extracting information for metric: CA1
+[2025-12-10 19:21:21] Extracting information for metric: CA2
+[2025-12-10 19:21:44] Extracting information for metric: CA3
+[2025-12-10 19:22:07] Extracting information for metric: Copper (Cu)
+[2025-12-10 19:22:27] Extracting information for metric: Zinc (Zn)
+[2025-12-10 19:22:49] Done.
+[2025-12-10 19:22:49] Starting extraction for mine: Mine B...
+[2025-12-10 19:24:32] Extracting information for metric: Taxonomic richness
+[2025-12-10 19:24:56] Extracting information for metric: Total abundance
+[2025-12-10 19:25:18] Extracting information for metric: Shannon diversity (H′)
+[2025-12-10 19:25:41] Extracting information for metric: Evenness (J′)
+[2025-12-10 19:26:04] Extracting information for metric: Hilsenhoff Biotic Index (HBI)
+[2025-12-10 19:26:25] Extracting information for metric: BioMAP Water‑Quality Index (WQI)
+[2025-12-10 19:26:47] Extracting information for metric: Percent Model Affinity (PMA)
+[2025-12-10 19:27:10] Extracting information for metric: Correspondence‑analysis axis 1 (CA1)
+[2025-12-10 19:27:35] Extracting information for metric: Correspondence‑analysis axis 2 (CA2)
+[2025-12-10 19:28:00] Extracting information for metric: Correspondence‑analysis axis 3 (CA3)
+[2025-12-10 19:28:26] Extracting information for metric: Metal concentrations in sediments (Cu, Co, Ni, As)
+[2025-12-10 19:28:49] Extracting information for metric: Sediment characteristics (silt + clay %, TOC, redox)
+[2025-12-10 19:29:12] Done.
+[2025-12-10 19:29:12] Iteration: 8		 Study: 2714
+[2025-12-10 19:29:25] Extracting tables from the text...
+[2025-12-10 19:45:18] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 19:46:51] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 19:48:53] Extracting information for metric: Plasma phosphorus (P) concentration
+[2025-12-10 19:49:23] Extracting information for metric: Plasma calcium (Ca) concentration
+[2025-12-10 19:49:50] Extracting information for metric: Ca : P ratio
+[2025-12-10 19:50:20] Extracting information for metric: Bone‑specific alkaline phosphatase (BALP) activity
+[2025-12-10 19:50:47] Extracting information for metric: Leg‑deformity status (deformed vs. non‑deformed)
+[2025-12-10 19:51:13] Extracting information for metric: Prevalence of leg deformities within a colony
+[2025-12-10 19:51:39] Done.
+[2025-12-10 19:51:40] Iteration: 9		 Study: 2758
+[2025-12-10 19:51:59] Extracting tables from the text...
+[2025-12-10 19:56:08] Determining whether multiple mines are assessed individually in the study...
+[2025-12-10 19:57:47] No (multiple) individual mines found, starting extraction for complete study...
+[2025-12-10 20:00:30] Extracting information for metric: Annual-cycle load of Cu
+[2025-12-10 20:00:49] Extracting information for metric: Annual-cycle load of Zn
+[2025-12-10 20:01:13] Extracting information for metric: Annual-cycle load of Mn
+[2025-12-10 20:01:36] Extracting information for metric: Annual-cycle load of sulfate
+[2025-12-10 20:01:59] Extracting information for metric: Average water concentration of Cu
+[2025-12-10 20:02:20] Extracting information for metric: Average water concentration of Zn
+[2025-12-10 20:02:49] Extracting information for metric: Average water concentration of Mn
+[2025-12-10 20:03:15] Extracting information for metric: Average water concentration of Co
+[2025-12-10 20:03:38] Extracting information for metric: Average water concentration of Ni
+[2025-12-10 20:04:06] Extracting information for metric: Average pH
+[2025-12-10 20:04:29] Extracting information for metric: Average dissolved‑oxygen (DO) saturation
+[2025-12-10 20:04:56] Extracting information for metric: Average conductivity
+[2025-12-10 20:05:19] Extracting information for metric: Average turbidity
+[2025-12-10 20:05:41] Extracting information for metric: Average temperature
+[2025-12-10 20:06:04] Extracting information for metric: Species richness
+[2025-12-10 20:06:26] Extracting information for metric: Total fish abundance
+[2025-12-10 20:06:50] Extracting information for metric: Community‑composition dissimilarity
+[2025-12-10 20:07:17] Extracting information for metric: Community heterogeneity
+[2025-12-10 20:07:40] Extracting information for metric: Abundance of Nematalosa (Australian river mullet)
+[2025-12-10 20:08:11] Extracting information for metric: Abundance of Neosilurus (catfish)
+[2025-12-10 20:08:47] Extracting information for metric: Abundance of Amniataba (freshwater perch)
+[2025-12-10 20:09:18] Extracting information for metric: Abundance of Megalops (tarpon)
+[2025-12-10 20:09:52] Extracting information for metric: Abundance of Toxotes (arowana)
+[2025-12-10 20:10:24] Extracting information for metric: Abundance of black bream (Hephaestus spp.)
+[2025-12-10 20:10:55] Extracting information for metric: Abundance of Melanotaenia (rainbowfish)
+[2025-12-10 20:11:23] Done.
+[2025-12-10 20:11:23] Finished in 152.29 minutes

@@ -1,10 +1,21 @@
 
-Return the following information as JSON: 
+Thoroughly analyse the attached mining-impact study and create a section for each of the instructions below. Let's think through each task step by step.
 
-1) Metric: Specify which metrics were used to measure the impacts of mining. Be specific and only mention individual metrics/measures/indices/etc. Only list metrics that were explicitly measured, modelled or otherwise estimated in the study. 
+1) Metric: Specify which metrics were used to measure the impacts of mining. Be concise and only list metrics that were explicitly measured, modelled or otherwise estimated in the study to quantify the impact of mining. Note: 
+- These should be metrics that are specifically compared between mining and non-mining (or mining and pre-mining/post-mining, etc.). 
+- Do not repeat metrics that measure essentially the same thing (e.g. 'increase in annual deforestation rate after mine creation' and 'deforestation‑rate increase factor' are really the same metric). What this means is that each metric listed must have been estimated individually in the study and represent a unique impact of mining in the study that is not captured by other metrics. To aid you, inspect what the magnitude of change of the metric is stated to be in the paper. If there are multiple metrics that all have the same magnitude of change, then it is likely that these metrics can be summarised into one. 
 
 2) Metric category: Group each metric into one of the following categories:
 - Biodiversity metric: quantifies and measures any species- or community-level biodiversity metric or indicator for any taxonomic group (vertebrates, invertebrates, plants, microorganisms, fungi, etc). Examples: species richness, abundance, diversity indices (Shannon, Simpson), community composition (e.g., percent model aﬃnity), biomass, population trends, population growth rate.
 - (Sub)-organismal metric: quantifies and measures biological processes or traits within or at the level of an organism or individual (e.g., physiological, molecular,  cellular, or genetic processes, etc). Examples: gene expression, enzyme activity, hormone levels, immune response, stress biomarkers, metabolic rates, individual growth rate.
 - Environmental metric: quantifies and measures the state, condition, or quality of the abiotic environment, excluding biodiversity or organismal metrics. Examples: water quality, contaminant or metal concentrations, temperature, pH, dissolved oxygen, soil nutrients, habitat structure, land cover, forest cover, etc.
 Note: If a metric could plausibly fit two categories, choose the category best representing the biological level being measured (species/community or organism or environment).
+
+3) Impact direction: In which direction is the metric reported to have changed due to mining (relative to a reference), based on quantitative data and figures? If this is not provided in the study, choose 'NA'. 
+- No Impact: Relative to a reference, mining has caused neither a gain nor loss to biodiversity values (For rehabilitation studies: rehabilitation has increased biodiversity values to be equivalent to reference site/s or pre-mining conditions).
+- Increased: Relative to a reference, mining is associated with an increase in the metric (For rehabilitation studies: rehabilitation has increased biodiversity values above reference site/s or pre-mining conditions).
+- Decreased: Relative to a reference, mining is associated with a decrease in the metric (For rehabilitation studies: 1) rehabilitation has increased biodiversity values but not above reference site/s or pre-mining conditions. 2) Rehab has decreased biodiversity values or is having no positive impact).
+- Changed: The impacts of this metric cannot be measured as increased or decreased but there has been a change when comparing between different conditions.
+- Variable: The impacts are reported as both increasing biodiversity values in some respects and decreasing them in others. For example, if the paper assesses different species individually and the direction is increased for one species and decreased for another.
+
+Important: Thoroughly explain your reasoning for each step. This is a complex task and it is very important that you extract all of this information correctly. 
